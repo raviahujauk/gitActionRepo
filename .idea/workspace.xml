@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6f2296e1-bd2e-4631-8ef8-b66ea1b6f56c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.github/workflows/maven.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="169">
+              <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -328,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.github/workflows/maven.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="39" column="20" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="169">
+          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
         </state>
       </provider>
     </entry>
