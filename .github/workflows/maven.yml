@@ -50,4 +50,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required
         #SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # Required
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # Required
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL_RAVI }} # Required
