@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f2296e1-bd2e-4631-8ef8-b66ea1b6f56c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.github/workflows/maven.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="153">
+              <caret line="51" column="20" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -247,6 +246,14 @@
       <option name="presentableId" value="Default" />
       <updated>1598487601878</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updating slack failure text">
+      <created>1598572046016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598572046016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -289,6 +296,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updating slack failure text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating slack failure text" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources/feature.feature">
       <provider selected="true" editor-type-id="text-editor">
@@ -329,8 +340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.github/workflows/maven.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="153">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="20" />
         </state>
       </provider>
     </entry>
