@@ -44,10 +44,7 @@ jobs:
       uses: deblockt/cucumber-report-annotations-action@v1.6
       with:
         access-token: ${{ secrets.GITHUB_TOKEN }}
-        path: "**/TargetReport/cucumber.json"
-
-    - name: Cucumber Report New
-      uses: cucumber-report-format --template templates/summary.erb cucumber-report.json      
+        path: "**/TargetReport/cucumber.json" 
       
     - name: Notify
       if: ${{ always() }}
