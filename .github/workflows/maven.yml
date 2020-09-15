@@ -54,7 +54,7 @@ jobs:
         status: ${{ job.status }} # Required
         success_text: 'Step Succeeded 🚀' # Optional 
         failure_text: |
-          Step Failed 😱 @raviahuja # Optional
+          Step Failed 😱 @raviahuja
         cancelled_text: 'Step Cancelled ⚠️' # Optional
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required
