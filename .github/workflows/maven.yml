@@ -51,14 +51,16 @@ jobs:
       
     - name: Notify
       if: ${{ always() }}
-      uses: innocarpe/actions-slack@v1
+      uses: |
+        echo $Annotations
+        innocarpe/actions-slack@v1
       with:
         status: ${{ job.status }} # Required
         success_text: 'Step Succeeded 🚀' # Optional 
         failure_text: 'Step Failed 😱 @raviahuja' # Optional
-        run: echo:$Annotations 
         cancelled_text: 'Step Cancelled ⚠️' # Optional
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required
         #SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # Required
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL_RAVI }} # Required
+
