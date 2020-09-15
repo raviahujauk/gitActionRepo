@@ -40,8 +40,6 @@ jobs:
       #run: mvn install -Dmaven.test.failure.ignore=true
 
     - name: Cucumber Report to Annotations
-      env:
-        Annotations: check-status-on-error
       if: ${{ always() }}
       uses: deblockt/cucumber-report-annotations-action@v1.6
       with:
