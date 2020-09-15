@@ -46,6 +46,9 @@ jobs:
         access-token: ${{ secrets.GITHUB_TOKEN }}
         path: "**/TargetReport/cucumber.json"
 
+    - name: Cucumber Report New
+      uses: cucumber-report-format --template templates/summary.erb cucumber-report.json      
+      
     - name: Notify
       if: ${{ always() }}
       uses: innocarpe/actions-slack@v1
