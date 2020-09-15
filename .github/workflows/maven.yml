@@ -40,19 +40,23 @@ jobs:
       #run: mvn install -Dmaven.test.failure.ignore=true
 
     - name: Cucumber Report to Annotations
+      env:
+        Annotations: check-status-on-error
       if: ${{ always() }}
       uses: deblockt/cucumber-report-annotations-action@v1.6
       with:
         access-token: ${{ secrets.GITHUB_TOKEN }}
         path: "**/TargetReport/cucumber.json" 
+        
       
     - name: Notify
       if: ${{ always() }}
       uses: innocarpe/actions-slack@v1
       with:
         status: ${{ job.status }} # Required
-        success_text: 'Step Succeeded 🚀' # Optional
-        failure_text: 'Step Failed 😱 @raviahuja \n' # Optional
+        success_text: 'Step Succeeded 🚀' # Optional 
+        failure_text: 'Step Failed 😱 @raviahuja' # Optional
+        run: echo:$Annotations 
         cancelled_text: 'Step Cancelled ⚠️' # Optional
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required
