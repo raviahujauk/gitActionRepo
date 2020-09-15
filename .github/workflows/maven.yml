@@ -51,9 +51,7 @@ jobs:
       
     - name: Notify
       if: ${{ always() }}
-      uses: |
-        echo $Annotations
-        innocarpe/actions-slack@v1
+      uses: innocarpe/actions-slack@v1
       with:
         status: ${{ job.status }} # Required
         success_text: 'Step Succeeded 🚀' # Optional 
